@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC2EBC57C9A778112938BF5 /* Pods_SeeFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BE7DBD3D9ACAB0E4CD89B0 /* Pods_SeeFood.framework */; };
+		CA7417681F308CBA00600930 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7417671F308CBA00600930 /* Default-568h@2x.png */; };
+		CAEB69551F1896E300647936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB69541F1896E300647936 /* AppDelegate.swift */; };
+		CAEB69571F1896E300647936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB69561F1896E300647936 /* ViewController.swift */; };
+		CAEB695A1F1896E300647936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB69581F1896E300647936 /* Main.storyboard */; };
+		CAEB695C1F1896E300647936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEB695B1F1896E300647936 /* Assets.xcassets */; };
+		CAEB695F1F1896E300647936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB695D1F1896E300647936 /* LaunchScreen.storyboard */; };
+		CAEB69691F18973900647936 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69661F18973900647936 /* RestKit.framework */; };
+		CAEB696A1F18973900647936 /* RestKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69661F18973900647936 /* RestKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAEB696B1F18973900647936 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69671F18973900647936 /* SVProgressHUD.framework */; };
+		CAEB696C1F18973900647936 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69671F18973900647936 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CAEB696D1F18973900647936 /* VisualRecognitionV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69681F18973900647936 /* VisualRecognitionV3.framework */; };
+		CAEB696E1F18973900647936 /* VisualRecognitionV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAEB69681F18973900647936 /* VisualRecognitionV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAEB696F1F18973900647936 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CAEB696C1F18973900647936 /* SVProgressHUD.framework in Embed Frameworks */,
+				CAEB696E1F18973900647936 /* VisualRecognitionV3.framework in Embed Frameworks */,
+				CAEB696A1F18973900647936 /* RestKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0A609D49421579FB4541285 /* Pods-SeeFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood.release.xcconfig"; sourceTree = "<group>"; };
+		CA7417671F308CBA00600930 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAEB69511F1896E300647936 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB69541F1896E300647936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAEB69561F1896E300647936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAEB69591F1896E300647936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAEB695B1F1896E300647936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAEB695E1F1896E300647936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAEB69601F1896E400647936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAEB69661F18973900647936 /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RestKit.framework; sourceTree = "<group>"; };
+		CAEB69671F18973900647936 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SVProgressHUD.framework; sourceTree = "<group>"; };
+		CAEB69681F18973900647936 /* VisualRecognitionV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisualRecognitionV3.framework; sourceTree = "<group>"; };
+		EA6900AE0BDB911D025A5257 /* Pods-SeeFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFood.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood.debug.xcconfig"; sourceTree = "<group>"; };
+		F2BE7DBD3D9ACAB0E4CD89B0 /* Pods_SeeFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAEB694E1F1896E300647936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB696B1F18973900647936 /* SVProgressHUD.framework in Frameworks */,
+				CAEB696D1F18973900647936 /* VisualRecognitionV3.framework in Frameworks */,
+				CAEB69691F18973900647936 /* RestKit.framework in Frameworks */,
+				0DC2EBC57C9A778112938BF5 /* Pods_SeeFood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AD0421C74A2D216BCCA939 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA6900AE0BDB911D025A5257 /* Pods-SeeFood.debug.xcconfig */,
+				A0A609D49421579FB4541285 /* Pods-SeeFood.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66E8384DEAC4E0DB5962F9EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE7DBD3D9ACAB0E4CD89B0 /* Pods_SeeFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAEB69481F1896E300647936 = {
+			isa = PBXGroup;
+			children = (
+				CA7417671F308CBA00600930 /* Default-568h@2x.png */,
+				CAEB69661F18973900647936 /* RestKit.framework */,
+				CAEB69671F18973900647936 /* SVProgressHUD.framework */,
+				CAEB69681F18973900647936 /* VisualRecognitionV3.framework */,
+				CAEB69531F1896E300647936 /* SeeFood */,
+				CAEB69521F1896E300647936 /* Products */,
+				58AD0421C74A2D216BCCA939 /* Pods */,
+				66E8384DEAC4E0DB5962F9EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAEB69521F1896E300647936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB69511F1896E300647936 /* SeeFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAEB69531F1896E300647936 /* SeeFood */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB69541F1896E300647936 /* AppDelegate.swift */,
+				CAEB69561F1896E300647936 /* ViewController.swift */,
+				CAEB69581F1896E300647936 /* Main.storyboard */,
+				CAEB695B1F1896E300647936 /* Assets.xcassets */,
+				CAEB695D1F1896E300647936 /* LaunchScreen.storyboard */,
+				CAEB69601F1896E400647936 /* Info.plist */,
+			);
+			path = SeeFood;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAEB69501F1896E300647936 /* SeeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEB69631F1896E400647936 /* Build configuration list for PBXNativeTarget "SeeFood" */;
+			buildPhases = (
+				1C0839E2CB66CE73C7A743CB /* [CP] Check Pods Manifest.lock */,
+				CAEB694D1F1896E300647936 /* Sources */,
+				CAEB694E1F1896E300647936 /* Frameworks */,
+				CAEB694F1F1896E300647936 /* Resources */,
+				CAEB696F1F18973900647936 /* Embed Frameworks */,
+				2F401CCEBBCA47F49CE44EA5 /* [CP] Embed Pods Frameworks */,
+				E4BAC3332BCA7FDE8AE6DA0A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeeFood;
+			productName = SeeFood;
+			productReference = CAEB69511F1896E300647936 /* SeeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAEB69491F1896E300647936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mariecris Banez";
+				TargetAttributes = {
+					CAEB69501F1896E300647936 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CAEB694C1F1896E300647936 /* Build configuration list for PBXProject "SeeFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAEB69481F1896E300647936;
+			productRefGroup = CAEB69521F1896E300647936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAEB69501F1896E300647936 /* SeeFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAEB694F1F1896E300647936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB695F1F1896E300647936 /* LaunchScreen.storyboard in Resources */,
+				CA7417681F308CBA00600930 /* Default-568h@2x.png in Resources */,
+				CAEB695C1F1896E300647936 /* Assets.xcassets in Resources */,
+				CAEB695A1F1896E300647936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0839E2CB66CE73C7A743CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F401CCEBBCA47F49CE44EA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4BAC3332BCA7FDE8AE6DA0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAEB694D1F1896E300647936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEB69571F1896E300647936 /* ViewController.swift in Sources */,
+				CAEB69551F1896E300647936 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAEB69581F1896E300647936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEB69591F1896E300647936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAEB695D1F1896E300647936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAEB695E1F1896E300647936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAEB69611F1896E400647936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAEB69621F1896E400647936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAEB69641F1896E400647936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6900AE0BDB911D025A5257 /* Pods-SeeFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SeeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariecrisBanez.SeeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAEB69651F1896E400647936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A609D49421579FB4541285 /* Pods-SeeFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SeeFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MariecrisBanez.SeeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAEB694C1F1896E300647936 /* Build configuration list for PBXProject "SeeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB69611F1896E400647936 /* Debug */,
+				CAEB69621F1896E400647936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEB69631F1896E400647936 /* Build configuration list for PBXNativeTarget "SeeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAEB69641F1896E400647936 /* Debug */,
+				CAEB69651F1896E400647936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAEB69491F1896E300647936 /* Project object */;
+}
