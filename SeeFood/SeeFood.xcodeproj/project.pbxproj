@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0DC2EBC57C9A778112938BF5 /* Pods_SeeFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BE7DBD3D9ACAB0E4CD89B0 /* Pods_SeeFood.framework */; };
 		CA7417681F308CBA00600930 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA7417671F308CBA00600930 /* Default-568h@2x.png */; };
-		CAD006BD1F3593F300F1E1BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD006BC1F3593F300F1E1BC /* Constants.swift */; };
+		CAD006C11F35AA8000F1E1BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD006C01F35AA8000F1E1BC /* Constants.swift */; };
 		CAEB69551F1896E300647936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB69541F1896E300647936 /* AppDelegate.swift */; };
 		CAEB69571F1896E300647936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB69561F1896E300647936 /* ViewController.swift */; };
 		CAEB695A1F1896E300647936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAEB69581F1896E300647936 /* Main.storyboard */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		A0A609D49421579FB4541285 /* Pods-SeeFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeFood.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeFood/Pods-SeeFood.release.xcconfig"; sourceTree = "<group>"; };
 		CA7417671F308CBA00600930 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CAD006BC1F3593F300F1E1BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CAD006C01F35AA8000F1E1BC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CAEB69511F1896E300647936 /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEB69541F1896E300647936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAEB69561F1896E300647936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				CAEB69541F1896E300647936 /* AppDelegate.swift */,
-				CAD006BC1F3593F300F1E1BC /* Constants.swift */,
+				CAD006C01F35AA8000F1E1BC /* Constants.swift */,
 				CAEB69561F1896E300647936 /* ViewController.swift */,
 				CAEB69581F1896E300647936 /* Main.storyboard */,
 				CAEB695B1F1896E300647936 /* Assets.xcassets */,
@@ -252,7 +252,7 @@
 			files = (
 				CAEB69571F1896E300647936 /* ViewController.swift in Sources */,
 				CAEB69551F1896E300647936 /* AppDelegate.swift in Sources */,
-				CAD006BD1F3593F300F1E1BC /* Constants.swift in Sources */,
+				CAD006C11F35AA8000F1E1BC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
