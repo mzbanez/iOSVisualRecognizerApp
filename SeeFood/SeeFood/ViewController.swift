@@ -110,13 +110,14 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         
     }
- 
+    
+
     
     @IBAction func shareTapped(_ sender: UIButton) {
 
         if (Twitter.sharedInstance().sessionStore.hasLoggedInUsers()) {
             // App must have at least one logged-in user to compose a Tweet
-            
+  
             let image = imageView.image
             
             let composer = TWTRComposerViewController(initialText: "According to my app, " + self.resultLabel.text! , image: image, videoURL: nil)
