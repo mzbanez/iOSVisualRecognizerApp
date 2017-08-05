@@ -15,8 +15,8 @@ import TwitterKit
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     
-    let apiKey = "96a1303194359e4de08116c2d2f5b6394d4e1d17"
-    let version = "2017-07-14"
+    let apiKey = ibmWatsonAPIkey
+    let version = ibmAPIversion
     
     
     @IBOutlet weak var cameraButton: UIBarButtonItem!
